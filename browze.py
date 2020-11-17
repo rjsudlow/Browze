@@ -33,7 +33,6 @@ def Browser():
                     pass
                 else:
                     cur_iteration += 1
-                    iterations -= 1
                     maxTabsMessage = input(Fore.YELLOW +"[+]"+" Open next group? Batch ("+str(cur_iteration)+" of "+str(iterations)+ "). " + Style.RESET_ALL)
                     if maxTabsMessage in ("yes", "y"):
                         counter = 0
@@ -55,7 +54,6 @@ def Browser():
                     pass
                 else:
                     cur_iteration += 1
-                    iterations -= 1
                     maxTabsMessage = input(Fore.YELLOW +"[+]"+" Open next group? Batch ("+str(cur_iteration)+" of "+str(iterations)+ "). " + Style.RESET_ALL)
                     if maxTabsMessage in ("yes", "y"):
                         counter = 0
@@ -77,7 +75,6 @@ def Browser():
                     pass
                 else:
                     cur_iteration += 1
-                    iterations -= 1
                     maxTabsMessage = input(Fore.YELLOW +"[+]"+" Open next group? Batch ("+str(cur_iteration)+" of "+str(iterations)+ "). " + Style.RESET_ALL)
                     if maxTabsMessage in ("yes", "y"):
                         counter = 0
