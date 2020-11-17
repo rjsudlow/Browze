@@ -89,7 +89,7 @@ def Browser():
 
 def Selector():
     global iplist, protocol, port, tabs
-    iplist = input(Fore.GREEN +"[+]"+ " List location: " + Style.RESET_ALL)
+    iplist = input(Fore.GREEN +"[+]"+ " List location (full path, please): " + Style.RESET_ALL)
     protocol = input(Fore.GREEN +"[+]"+ " Protocol type: (HTTP/S, FTP, SSH): " + Style.RESET_ALL)
     if protocol in ("HTTP", "http", "HTTPS", "https","FTP", "ftp", "SSH", "ssh"):
         if protocol in ("HTTP", "http", "HTTPS", "https"):
