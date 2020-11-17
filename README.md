@@ -2,8 +2,7 @@
 [![made-with-python](http://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
 
-Python script used to read a list of IP addresses and view them in a browser. Has support for common protocols like HTTP
-FTP, SSH, Telnet, etc. If you want even more granularity, you can pass it a specific port in a protocol and access that
+Python script used to read a list of IP addresses and view them in a browser. Has support for web protocols, with FTP support as well. If you want even more granularity, you can pass it a specific port in a protocol and access that
 (i.e., http://ip.address:9001).
 
 ## Download
