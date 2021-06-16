@@ -48,7 +48,7 @@ def Browser():
     if protocol in ("HTTPS","https"):
         with open(iplist, 'r') as f:
             for line in f.readlines():
-                webbrowser.open_new_tab(protocol + "://" + line.strip() + ":" + port)
+                webbrowser.open_new_tab(protocol + "s://" + line.strip() + ":" + port)
                 counter += 1
                 if counter < tabs:
                     pass
@@ -57,7 +57,7 @@ def Browser():
                     maxTabsMessage = input(Fore.YELLOW +"[+]"+" Open next group? Batch ("+str(cur_iteration)+" of "+str(iterations)+ "). " + Style.RESET_ALL)
                     if maxTabsMessage in ("yes", "y"):
                         counter = 0
-                        webbrowser.open_new_tab(protocol + "://" + line.strip() + ":" + port)
+                        webbrowser.open_new_tab(protocol + "s://" + line.strip() + ":" + port)
                         continue
                     else:
                         print("Godspeed, Friendo.")
