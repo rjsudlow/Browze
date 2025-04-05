@@ -48,7 +48,7 @@ def Browser():
     if protocol in ("HTTPS","https"):
         with open(iplist, 'r') as f:
             for line in f.readlines():
-                webbrowser.open_new_tab(protocol + "s://" + line.strip() + ":" + port)
+                webbrowser.open_new_tab(protocol + line.strip() + ":" + port)
                 counter += 1
                 if counter < tabs:
                     pass
